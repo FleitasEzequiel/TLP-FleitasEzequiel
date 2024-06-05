@@ -1,0 +1,38 @@
+h1{
+    background-color: antiquewhite;
+    width: 40%;
+    text-align: center;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.elgrid{
+    text-align: center;
+    display:grid;
+    background-color: aliceblue;
+    width: 110vh;
+    height: 30vh;
+    border-radius: 16px;
+}
+input{
+    font-size: 3vh;
+    margin-top: 20px;
+    width: 80vh;
+    height: 3vh;
+    justify-content: space-around;
+}
+#boton{
+    justify-self: center;
+    width: 60vh;
+    margin-bottom: 40px;
+    background-color: rgb(81, 163, 235);
+    border-radius: 16px;
+    border-style: none;
+}
